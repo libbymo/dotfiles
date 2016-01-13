@@ -1,8 +1,8 @@
 [push]
     default = simple
 [user]
-    name = cbrock
-    email = colintbrock@gmail.com
+    name = libbymo
+    email = libbymo@gmail.com
 [color]
 # ui = true is a superset of all the more specific color options
 #  as documented at http://book.git-scm.com/5_customizing_git.html
@@ -37,3 +37,9 @@ helper = /opt/boxen/bin/boxen-git-credential
 
 [core]
 excludesfile = /opt/boxen/config/git/gitignore
+
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
