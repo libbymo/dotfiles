@@ -38,6 +38,7 @@ helper = /opt/boxen/bin/boxen-git-credential
 [core]
 excludesfile = /opt/boxen/config/git/gitignore
 
+
 [alias]
     co = checkout
     ci = commit
